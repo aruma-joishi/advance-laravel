@@ -7,9 +7,6 @@ use Illuminate\Support\Facades\DB;
 
 class AuthorsTableSeeder extends Seeder
 {
-    
-     * @return void
-     */
     public function run()
     {
         $param = [
