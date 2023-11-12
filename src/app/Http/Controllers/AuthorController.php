@@ -16,7 +16,7 @@ class AuthorController extends Controller
   public function create(Request $request)
   {
     $form = $request->all();
-    + Author::create($form);
+    Author::create($form);
     return redirect('/');
   }
 
